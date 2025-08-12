@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "node.js"
+  ],
+  "license": "ISC",
+  "author": "Malay prajapati",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/App.js",
+    "dev":"nodemon src/App.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
